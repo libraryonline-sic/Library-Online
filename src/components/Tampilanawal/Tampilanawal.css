@@ -1,0 +1,32 @@
+.containertawal {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 629px;
+  width: 100%;
+}
+
+.containertawal img {
+  width: 700px;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  background-color: #264653;
+  height: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: antiquewhite;
+}
+.texttawal {
+  background-color: #264653;
+  color: antiquewhite;
+}
+.navigasi {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
