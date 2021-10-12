@@ -11,13 +11,13 @@ export default function Perpus() {
         <SearchBar placeholder="Enter a Book Name..." />
       </div>
       <br></br>
-      <p className="bukuTeratas">BUKU TERATAS!</p>
       <br></br>
       <div className="containerperpus">
+        <p className="bukuTeratas">BUKU TERATAS!</p>
         <div className="item1">
           <img src={logo} className="logo1" alt="Logo" />
-          <Link to="/Pembayaran" className="bukub">
-            <p>Buku Sedih</p>
+          <Link to="/Pembayaran">
+            <p className="bukua">Buku Sedih</p>
           </Link>
         </div>
         <div className="item2">

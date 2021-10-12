@@ -15,17 +15,19 @@ function Tampilanawal() {
       </div>
 
       <div className="content">
-        <h2 className="texttawal">
-          Selamat Datang di Pusat Komunikasi. Ada yang bisa saya bantu?
-        </h2>
-        <div classNamena="navigasi">
-          <div cls="navkiri">
-            <FontAwesomeIcon icon={faChevronLeft} />
-            <p>Back</p>
+        <center>
+          <h2 className="texttawal">
+            Selamat Datang di Pusat Komunikasi. Ada yang bisa saya bantu?
+          </h2>
+        </center>
+        <div className="navigasi">
+          <div className="navkirita">
+            <FontAwesomeIcon icon={faChevronLeft} className="chevronleftta" />
+            <p className="backta">&nbsp;Back</p>
           </div>
-          <div className="navkiri">
-            <p>Next</p>
-            <FontAwesomeIcon icon={faChevronRight} />
+          <div className="navkanan">
+            <p className="nextta">Next&nbsp;</p>
+            <FontAwesomeIcon icon={faChevronRight} className="chevronrightta" />
           </div>
         </div>
       </div>

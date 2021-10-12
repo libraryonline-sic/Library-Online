@@ -2,31 +2,58 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  height: 629px;
+  height: 400px;
   width: 100%;
 }
 
 .containertawal img {
-  width: 700px;
+  width: 400px;
   height: auto;
 }
 
 .content {
   display: flex;
   background-color: #264653;
-  height: 200px;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
+  height: 168px;
   color: antiquewhite;
+  flex-direction: column;
 }
 .texttawal {
   background-color: #264653;
   color: antiquewhite;
+  padding-top: 50px;
 }
 .navigasi {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
+  justify-content: space-between;
+  background-color: #264653;
+  padding-top: 30px;
+}
+.navkirita {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  background-color: #264653;
+}
+.navkanan {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  background-color: #264653;
+}
+.nextta,
+.chevronrightta,
+.backta,
+.chevronleftta {
+  background-color: #264653;
+}
+.chevronleftta,
+.chevronrightta {
+  padding-top: 4px;
+}
+.chevronrightta {
+  padding-right: 20px;
+}
+.chevronleftta {
+  padding-left: 20px;
 }

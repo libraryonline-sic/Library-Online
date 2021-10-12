@@ -36,7 +36,7 @@ export default function Pembayaran() {
           </div>
         </div>
         <div className="containerbayar">
-          <h1 className="harga">FREE</h1>
+          <button className="harga">FREE</button>
         </div>
       </div>
     </div>

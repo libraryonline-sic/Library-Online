@@ -10,6 +10,9 @@ import Perpus from "./components/perpus/Perpus";
 import Tampilanawal from "./components/Tampilanawal/Tampilanawal";
 import Memilihroom from "./components/memilihroom/Memilihroom";
 import Baca from "./components/Halamanbaca/Halamanbaca";
+import Penjagaperpus from "./components/penjagaperpus/Penjagaperpus";
+import Profilpengguna from "./components/profilpengguna/profilpengguna";
+import Dw from "./components/download/Dw";
 
 function App() {
   return (
@@ -42,6 +45,15 @@ function App() {
         </Route>
         <Route exact path="/halamanbaca">
           <Baca />
+        </Route>
+        <Route exact path="/penjagaperpus">
+          <Penjagaperpus />
+        </Route>
+        <Route exact path="/profilpengguna">
+          <Profilpengguna />
+        </Route>
+        <Route exact path="/download">
+          <Dw />
         </Route>
       </Switch>
     </Router>

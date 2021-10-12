@@ -10,11 +10,11 @@ function Navbar() {
         <nav>
           <container className="brand">
             <img src={petal} className="petal" alt="Logo" />
-            <h1>Petal</h1>
+            <h1 className="brandname">Petal</h1>
           </container>
           <ul>
             <li>
-              <Link to="/" className="linkpages">
+              <Link to="/homepage" className="linkpages">
                 Home
               </Link>
             </li>
