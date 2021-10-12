@@ -14,13 +14,13 @@ function App() {
             <Navbar />
             <Switch>
                 <Route exact path="/">
-                    {/* <Login /> */}
+                    <Login />
                 </Route>
                 <Route exact path="/homepage">
-                    {/* <Homepage /> */}
+                    <Homepage />
                 </Route>
                 <Route exact path="/register">
-                    {/* <Register /> */}
+                    <Register />
                 </Route>
                 <Route exact path="/pembayaran">
                     <Pembayaran />
