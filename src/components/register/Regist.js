@@ -58,10 +58,12 @@ function input() {
                     </div>
                     <div>
                         <p className="signup">
-                            sudah punya akun? &nbsp;
-                            <a href="/Login" className="hrefsignup">
-                                Login
-                            </a>
+                            sudah punya akun?
+                            <Link to="/login">
+                                <a href className="hrefsignup">
+                                    Login
+                                </a>
+                            </Link>
                         </p>
                     </div>
                 </div>
