@@ -31,9 +31,6 @@ function App() {
                 <Route exact path="/pembayaran">
                     <Pembayaran />
                 </Route>
-                <Route exact path="/pembayaran">
-                    <Pembayaran />
-                </Route>
                 <Route exact path="/perpus">
                     <Perpus />
                 </Route>

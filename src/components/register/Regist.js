@@ -60,7 +60,7 @@ function input() {
                         <p className="signup">
                             sudah punya akun? &nbsp;
                             <a href="/Login" className="hrefsignup">
-                                login sekarang
+                                Login
                             </a>
                         </p>
                     </div>

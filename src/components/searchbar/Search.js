@@ -7,10 +7,9 @@ function SearchBar({ placeholder, data }) {
         <div className="search">
             <div className="searchInputs">
                 <input type="text" placeholder={placeholder} />
-                <div className="searchIcon">
-                    <FontAwesomeIcon icon={faSearch} className="searchIcon" />
-                </div>
-                <div clasName="dataResult"></div>
+            </div>
+            <div className="searchIcon">
+                <FontAwesomeIcon icon={faSearch} />
             </div>
         </div>
     );
