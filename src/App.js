@@ -15,49 +15,49 @@ import Profilpengguna from "./components/profilpengguna/profilpengguna";
 import Dw from "./components/download/Dw";
 
 function App() {
-  return (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route exact path="/login">
-          <Login />
-        </Route>
-        <Route exact path="/homepage">
-          <Homepage />
-        </Route>
-        <Route exact path="/register">
-          <Register />
-        </Route>
-        <Route exact path="/pembayaran">
-          <Pembayaran />
-        </Route>
-        <Route exact path="/pembayaran">
-          <Pembayaran />
-        </Route>
-        <Route exact path="/perpus">
-          <Perpus />
-        </Route>
-        <Route exact path="/tampilanawal">
-          <Tampilanawal />
-        </Route>
-        <Route exact path="/memilihroom">
-          <Memilihroom />
-        </Route>
-        <Route exact path="/halamanbaca">
-          <Baca />
-        </Route>
-        <Route exact path="/penjagaperpus">
-          <Penjagaperpus />
-        </Route>
-        <Route exact path="/profilpengguna">
-          <Profilpengguna />
-        </Route>
-        <Route exact path="/download">
-          <Dw />
-        </Route>
-      </Switch>
-    </Router>
-  );
+    return (
+        <Router>
+            <Navbar />
+            <Switch>
+                <Route exact path="/login">
+                    <Login />
+                </Route>
+                <Route exact path="/">
+                    <Homepage />
+                </Route>
+                <Route exact path="/register">
+                    <Register />
+                </Route>
+                <Route exact path="/pembayaran">
+                    <Pembayaran />
+                </Route>
+                <Route exact path="/pembayaran">
+                    <Pembayaran />
+                </Route>
+                <Route exact path="/perpus">
+                    <Perpus />
+                </Route>
+                <Route exact path="/tampilanawal">
+                    <Tampilanawal />
+                </Route>
+                <Route exact path="/memilihroom">
+                    <Memilihroom />
+                </Route>
+                <Route exact path="/halamanbaca">
+                    <Baca />
+                </Route>
+                <Route exact path="/penjagaperpus">
+                    <Penjagaperpus />
+                </Route>
+                <Route exact path="/profilpengguna">
+                    <Profilpengguna />
+                </Route>
+                <Route exact path="/download">
+                    <Dw />
+                </Route>
+            </Switch>
+        </Router>
+    );
 }
 
 export default App;
