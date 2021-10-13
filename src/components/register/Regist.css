@@ -76,11 +76,26 @@
 }
 .hrefsignup {
     background-color: white;
-    font-style: none;
     color: #264653;
+    font-size: 15px;
     font-weight: 900;
     padding-left: 10px;
+    width: 0px !important;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 50px;
 }
+
+.hrefsignup:hover {
+    background-color: none;
+    color: #264653;
+    font-size: 15px;
+    font-weight: 900;
+    padding-left: 10px;
+    width: 0px !important;
+}
+
 .btnsignup-register {
     font-size: 16px;
     padding-right: 100px;
